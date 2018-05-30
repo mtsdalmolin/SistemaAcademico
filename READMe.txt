@@ -1,0 +1,9 @@
+Trabalho 2 de Laboratório de Programação II
+Objetivo:
+- Implementar um sistema acadêmico.
+
+  O trabalho em questão foi desenvolvido na linguagem C, pelo aluno Matheus Dalmolin da Silva, aluno do segundo semestre de Sistemas de Informação.
+  No trabalho, constam as funções de inserir, buscar e excluir alunos, professores, disciplinas, turmas e aulas. Não é possível excluir um aluno, professor ou disciplina se esses estão vinculados a uma turma cadastrada no sistema. Primeiramente tem que excluir a turma em questão para depois excluir o aluno, professor ou discpilina desejado.
+  No sistema implementado no trabalho, é possível lançar presenças para os alunos nas aulas, mas na exclusão da aula, o sistema acaba tirando uma presença de todos os alunos cadastrados na turma da aula em questão.
+  Para gerar o relatório geral com os dados corretos, tem que cadastrar o máximo de aulas para a turma para que o relatório geral da turma seja preciso nas informações. O número total de aulas depende da carga horária da disciplina. Se a disciplina tem carga horária de 60 horas, terão que ser lançadas 60 aulas para que o relatório geral seja exato, pois se o total de aulas não forem cadastradas, o relatório geral será gerado com base em uma turma que não lançou todas as aulas, gerando um relatório geral equivocado.
+  Um ponto muito importante do trabalho é que não limitei a leitura da matrícula do aluno, do código siape do professor, do código da disciplina e do número da turma. Então, se o usuário digitar um número que dê overflow em um int, buga o sistema e é preciso matar o processo com Ctrl+C. O mesmo acontece na busca e exclusão de elementos do sistema.
